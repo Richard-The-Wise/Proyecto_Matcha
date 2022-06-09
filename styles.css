@@ -1,0 +1,41 @@
+body{
+    background-color: #fffbf7;
+}
+
+h1{
+    color: #025157;
+    text-align: center;
+    font-size: 70px;
+}
+
+p{
+    color: #46484c;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    text-align: center;
+}
+
+form~p{
+    color: #8b8b8bcc;
+    font-family: Verdana;
+    font-size: 15px;
+    text-align: center;
+}
+
+button{
+    color: #fff;
+    background-color: #025157;
+    height: 50px;
+}
+
+input{
+    height: 45px;
+}
+
+form{
+    text-align: center;   
+}
+
+img{
+    text-align: center;
+}
