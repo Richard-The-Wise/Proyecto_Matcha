@@ -36,6 +36,10 @@ form{
     text-align: center;   
 }
 
+
 img{
-    text-align: center;
+    display: block;
+    margin: auto;
+    width: 50%;
+    
 }
