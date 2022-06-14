@@ -1,45 +1,57 @@
-body{
+body {
     background-color: #fffbf7;
 }
 
-h1{
+h1 {
     color: #025157;
     text-align: center;
     font-size: 70px;
 }
 
-p{
+p {
     color: #46484c;
     font-family: 'Times New Roman';
     font-size: 20px;
     text-align: center;
 }
 
-form~p{
+form~p {
     color: #8b8b8bcc;
     font-family: Verdana;
     font-size: 15px;
     text-align: center;
 }
 
-button{
+button {
     color: #fff;
     background-color: #025157;
-    height: 50px;
+    border-style: solid;
+    padding: 18px 5px;
 }
 
 input{
-    height: 45px;
+    padding: 18px 10px;
 }
 
-form{
-    text-align: center;   
+form {
+    text-align: center;
 }
 
-
-img{
-    display: block;
+img {
+    display:block;
     margin: auto;
-    width: 50%;
-    
+    width: 40%;
+}
+
+nav{
+    background-color: #46484c;
+    color: #fff;
+}
+
+a>img{
+    display: block;
+    width:5rem;
+    margin-left: 3%;
+    line-height: 0%;
+
 }
