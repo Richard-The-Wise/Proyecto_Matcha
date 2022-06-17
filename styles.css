@@ -101,3 +101,7 @@ li {
     height: 45px;
     border-radius: 5px;
 }
+
+input{
+  text-align: center;
+}
