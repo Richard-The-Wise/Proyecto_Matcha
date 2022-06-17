@@ -21,9 +21,17 @@ button {
 }
 
 .header {
-  margin: 40px 20px 0;
+  margin: 0 20px 0;
   font-size: 0;
   font-family: sans-serif;
+}
+
+.fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fffbf7;
 }
 
 li {
@@ -37,18 +45,23 @@ li {
   line-height: 45px;
   height: 100%;
   vertical-align: middle;
+  padding-top: 0;
 }
 
 .logo {
   width: 15%;
+  padding: 0;
 }
 
 .logo > img {
-  width: 15%;
+  width: 25%;
+  padding: 0;
+  margin-left: 80%;
+  
 }
 
 .navbar {
-  width: 70%;
+  width: 60%;
   text-align: center;
   color: #025157;
   font-weight: 500;
@@ -123,13 +136,43 @@ input{
 
 .video{
   display: flex;
-  width: 70%;
+  width: 80%;
   margin: 100px auto;
   justify-content: center;
+  align-items: center;
 }
 
 .publicidad{
   margin-left: 30px;
 }
+
+.video input{
+  height: 40px;
+  border-radius: 5px;
+  padding: 0 20px 0;
+}
+
+.video button{
+  border: 0;
+  font-family: Verdana;
+  font-size:medium;
+  height: 44px;
+  border-radius: 5px;
+  padding: 0 20px 0;
+}
+
+.imagen_del_video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagen_del_video img{
+  width: 120px;
+  margin-top: 10px;
+}
+
+
+
 
 
