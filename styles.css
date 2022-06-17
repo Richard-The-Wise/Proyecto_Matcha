@@ -106,8 +106,6 @@ input{
   text-align: center;
 }
 
-
-
 .publicidad h3{
   font-size: 40px;
   color: #025157;
@@ -121,6 +119,17 @@ input{
 
 .publicidad form>p{
   color: #919494;
+}
+
+.video{
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+  justify-content: center;
+}
+
+.publicidad{
+  margin-left: 30px;
 }
 
 
