@@ -105,3 +105,10 @@ li {
 input{
   text-align: center;
 }
+
+.video{
+  display: flex;
+  flex-flow: column wrap;
+}
+
+
