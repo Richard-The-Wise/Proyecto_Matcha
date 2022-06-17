@@ -106,9 +106,21 @@ input{
   text-align: center;
 }
 
-.video{
-  display: flex;
-  flex-flow: column wrap;
+
+
+.publicidad h3{
+  font-size: 40px;
+  color: #025157;
+  font-family: 'Fascinate';
+  line-height: 48px;
+}
+
+.publicidad p{
+  color: #343434;
+}
+
+.publicidad form>p{
+  color: #919494;
 }
 
 
